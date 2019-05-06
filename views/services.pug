@@ -1,0 +1,12 @@
+extends layout
+
+
+block content
+    each service, i in services
+       div.well
+         p
+           |service name
+         h3 #{service.name}
+         p
+           |service id
+         h3 #{service.id}
